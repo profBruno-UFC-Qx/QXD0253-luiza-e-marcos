@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro - Asa Branca</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="auth-page">
+    <header class="auth-header">
+      <div class="brand">Asa Branca</div>
+      <p>Cadastre-se para acessar o catálogo de jogos e acompanhar seu progresso.</p>
+    </header>
+    <main class="auth-container">
+      <section class="auth-card">
+        <h1>Cadastro</h1>
+        <p>Crie uma conta para acessar as atividades e recursos educativos.</p>
+        <form>
+          <label for="name">Nome completo</label>
+          <input id="name" type="text" placeholder="Nome" required />
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="seuemail@exemplo.com" required />
+          <label for="password">Senha</label>
+          <input id="password" type="password" placeholder="********" required />
+          <label for="confirm-password">Confirmar senha</label>
+          <input id="confirm-password" type="password" placeholder="********" required />
+          <button type="submit">Cadastrar</button>
+        </form>
+        <p class="text-suggestion">
+          Já tem conta? <a href="login.html">Entrar</a>
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
